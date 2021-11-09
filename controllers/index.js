@@ -1,4 +1,5 @@
 module.exports={
     calculatorController:require('./calculatorController'),
-    userController: require('./userController')
+    userController: require('./userController'),
+    timelineController:require('./timelineController')
 }
