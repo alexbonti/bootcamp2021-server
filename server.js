@@ -14,9 +14,9 @@ app.use(cors())
 //var MongoConnect = require('./mongoConnect')
 
 //var RdsConnect = require('./rdsConnect')
-app.use('/calculator', calculatorRouter);
+//app.use('/calculator', calculatorRouter);
 app.use('/timeline',timelineRoute)
-app.use('/user', userRoute);
+//app.use('/user', userRoute);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
